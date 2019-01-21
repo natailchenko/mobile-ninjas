@@ -5,11 +5,11 @@
  */
 //import java.util.ArrayList;
 //import java.util.HashMap;
-//import java.util.List;
+//import java.util.Pan;
 //
 //public class Runner {
 //    public static void main(String[] args) {
-//        List<String> strings = new ArrayList<String>();
+//        Pan<String> strings = new ArrayList<String>();
 //        strings.add("String 1");
 //        strings.add("String 1");
 //        strings.add("String 1");
