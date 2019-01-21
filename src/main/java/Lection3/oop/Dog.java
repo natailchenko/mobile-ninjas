@@ -1,9 +1,40 @@
-package l3.oop;
-
-import Lection3.L3.Colour;
-
-/**
- * Created by user on 16.01.2019.
- */
-public class Dog {
-}
+//package l3.oop;
+//
+//import Lection3.oop.Animal;
+//import Lection3.oop.Breathable;
+//
+//import java.awt.*;
+//
+//public class Dog extends Animal implements Breathable {
+//
+//    public Dog(Color color) {
+//        super(color);
+//    }
+//
+//    public void makeSound() {
+//        System.out.println("Woof! Woof!");
+//    }
+//
+//    public void run() {
+//
+//    }
+//
+//    public void write() {
+//        System.out.println("I'm writing...");
+//    }
+//
+//    public void write(String text) {
+//        System.out.println(text);
+//    }
+//
+//    public void write(String text, boolean trueFalse) {
+//        if (trueFalse) {
+//            System.out.println(text);
+//        }
+//    }
+//
+//    @Override
+//    public void breath() {
+//
+//    }
+//}

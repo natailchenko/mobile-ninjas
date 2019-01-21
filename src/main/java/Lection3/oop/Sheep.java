@@ -1,7 +1,27 @@
 package Lection3.oop;
 
-/**
- * Created by user on 16.01.2019.
- */
-public class Sheep {
+import java.awt.*;
+
+public class Sheep extends Animal implements Breathable {
+
+    public Sheep(Color color) {
+        super(color);
+    }
+
+    public void makeSound() {
+        System.out.println("Beeeee!");
+    }
+
+    public void run() {
+
+    }
+
+    public void write() {
+
+    }
+
+    @Override
+    public void breath() {
+
+    }
 }
