@@ -1,45 +1,26 @@
-//package secondhw.task1;
-//import java.util.HashMap;
-//import java.util.Map;
-//public class Cat {
-//    public static void main(String[] args) throws Exception
-//    {
-//        String[] cats = new String[] {"васька", "мурка", "дымка", "рыжик", "серый", "снежок", "босс", "борис", "визя", "гарфи"};
-//
-//        HashMap<String, Cat> map = addCatsToMap(cats);
-//
-//        for (Map.Entry<String, Cat> pair : map.entrySet())
-//        {
-//            System.out.println(pair.getKey() + " - " + pair.getValue());
-//        }
-//    }
-//
-//
-//    public static HashMap<String, Cat> addCatsToMap(String[] cats)
-//    {
-//        //напишите тут ваш код
-//        HashMap<String, Cat> addCats = new HashMap<String, Cat>();
-//        for(String s: cats){
-//            addCats.put(s, new Cat(s));
-//        }
-//        return addCats;
-//
-//    }
-//
-//
-//    public static class Cat1
-//    {
-//        String name;
-//
-//        public Cat(String name)
-//        {
-//            this.name = name;
-//        }
-//
-//        @Override
-//        public String toString()
-//        {
-//            return name != null ? name.toUpperCase() : null;
-//        }
-//    }
-//}
+package secondhw.task1;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+public class Cat {
+    public static void main(String[] args) {
+
+        HashMap<String, String> hashMap = new HashMap<String, String>;
+        hashMap.put("Cat1","мурка");
+        hashMap.put("Cat2","васька");
+        hashMap.put("Cat3","кузя");
+        hashMap.put("Cat4","жужа");
+        hashMap.put("Cat5","лелик");
+        hashMap.put("Cat6","кокс");
+        hashMap.put("Cat7","степа");
+        hashMap.put("Cat8","машка");
+        hashMap.put("Cat9","дашка");
+        hashMap.put("Cat10","люська");
+
+      Iterator it = mp.entrySet().iterator();
+    while (it.hasNext()) {
+        Map.Entry pair = (Map.Entry)it.next();
+        System.out.println(pair.getKey() + " = " + pair.getValue());
+        it.remove();
+    }
+}
